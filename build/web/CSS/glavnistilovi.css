@@ -1,0 +1,187 @@
+/*RESETOVANJE CSS-a*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 80%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ******************** OSNOVNI STILOVI ********************* */
+H1{
+    font-size: 150%;
+}
+H2{
+    font-size: 130%;
+}
+H3{
+    font-size: 110%;
+}
+
+input {
+    border: 1px solid #999999; 
+    padding: 5px;
+}
+
+/* ******************** CSS ********************* */
+
+body{
+    background-color: darkgray;
+}
+
+#kontejner{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#baner{
+    height: 40px;
+    padding: 10px;
+}
+
+#meni{
+    background-color: #424242;
+    padding: 10px;
+    color: white;
+}
+
+#meni a{
+    color: white;
+    text-decoration: none;
+}
+
+#sadrzaj{
+    padding: 10px;
+    min-height: 400px;
+
+}
+
+#futer{
+    background-color: #424242;
+    padding: 80px 0 0 0;
+    color: white;
+    height: 50px;
+    text-align: center;
+
+    font-size: 70%;
+
+
+}
+
+#logo{
+
+    float:left;
+    min-height: 40px;
+    line-height: 40px;
+    width: 600px;
+}
+
+#userid{
+
+    min-height: 40px;
+    line-height: 20px;
+    width: 300px;
+    float:right;
+    text-align: right;
+}
+
+#informacije{
+    padding: 10px;
+    clear:both;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#pretraga{
+
+    padding: 10px;
+    clear:both;
+    background-color: F2F2F2;
+    margin-bottom: 10px;
+    border: #999999 solid 1px;
+}
+
+#sekcije{
+
+    padding: 10px;
+    clear:both;
+    background-color: #f4f4f4;
+    border: #999999 solid 1px;
+}
+
+/* ******************** Tabele ********************* */
+
+.tabela-login{
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.tabela-login > th, td {
+    padding: 10px;
+}
+
+.tabela-pretraga{
+    margin: 0 auto;
+
+}
+
+.tabela-pretraga td {
+    padding: 10px;
+}
+
+.tabela-view tr{
+    border-bottom: 1px solid #999999;
+}
+.tabela-view th{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tabela-view td:first-child { 
+    color: maroon;
+    font-weight: bold;
+}
+
+
+
+/* ******************** CSS ********************* */
